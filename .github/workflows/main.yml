@@ -1,4 +1,4 @@
-name: Python Application test with github
+name: Python application test with Github Actions
 on: [push]
 jobs:
   build:
@@ -10,6 +10,6 @@ jobs:
       with:
         python-version: 3.13
     - name: Install dependencies
-        run: |
+      run: |
         make install
         
